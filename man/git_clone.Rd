@@ -6,6 +6,9 @@
 \usage{
 git_clone(repo)
 }
+\arguments{
+\item{repo}{Github repo username/repo}
+}
 \value{
 Clones repo froms current directory
 }

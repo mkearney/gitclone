@@ -2,7 +2,7 @@
 #'
 #' Clone Github repo
 #'
-#' @param repo
+#' @param repo Github repo username/repo
 #' @return Clones repo froms current directory
 #' @export
 git_clone <- function(repo) {
