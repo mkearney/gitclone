@@ -7,11 +7,14 @@ Authors@R:
            role = c("aut", "cre"),
            email = "kearneymw@missouri.edu",
            comment = c(ORCID = "0000-0002-0730-4694"))
-Description: Describe pkg
+Description: Tools for cloning and creating Github repositories.
 License: GPL-3
 Encoding: UTF-8
 Langauge: en
 LazyData: true
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.0.9000
 URL: https://github.com/mkearney/gitclone
 BugReports: https://github.com/mkearney/gitclone/issues
+Imports: 
+    usethis,
+    git2r
